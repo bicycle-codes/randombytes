@@ -1,6 +1,6 @@
 {
   "name": "@bicycle-codes/randombytes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Random bytes for the browser or node",
   "type": "module",
   "directories": {
