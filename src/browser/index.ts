@@ -1,5 +1,3 @@
-'use strict'
-
 // limit of Crypto.getRandomValues()
 // https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues
 const MAX_BYTES = 65536
@@ -25,8 +23,7 @@ export function randomBytes (size:number):Uint8Array {
     }
 
     const arr = new Uint8Array(size)
-    const randoms = crypto.getRandomValues(arr)
-    return randoms
+    return crypto.getRandomValues(arr)
 }
 
 export default randomBytes
