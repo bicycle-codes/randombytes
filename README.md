@@ -13,7 +13,22 @@ Get random bytes as a `Uint8Array`, using the same API in either Node or browser
 Under the hood this will use the `node:crypto` library if used in node, or [crypto.getRandomValues](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) in the browser.
 
 <details><summary><h2>Contents</h2></summary>
+
 <!-- toc -->
+
+- [install](#install)
+- [API](#api)
+  * [ESM](#esm)
+  * [Common JS](#common-js)
+- [CSS](#css)
+  * [Import CSS](#import-css)
+  * [Customize CSS via some variables](#customize-css-via-some-variables)
+- [use](#use)
+  * [JS](#js)
+  * [pre-built JS](#pre-built-js)
+
+<!-- tocstop -->
+
 </details>
 
 ## install
