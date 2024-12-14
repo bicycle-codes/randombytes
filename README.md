@@ -8,9 +8,9 @@
 [![dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg?style=flat-square)](package.json)
 [![license](https://img.shields.io/badge/license-Polyform_Non_Commercial-26bc71?style=flat-square)](LICENSE)
 
-`<package description goes here>`
+Get random bytes as a `Uint8Array`, using the same API in either Node or browsers.
 
-[See a live demo](https://namespace.github.io/package-name/)
+Under the hood this will use the `node:crypto` library if used in node, or [crypto.getRandomValues](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) in the browser.
 
 <details><summary><h2>Contents</h2></summary>
 <!-- toc -->
