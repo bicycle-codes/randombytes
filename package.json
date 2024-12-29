@@ -78,7 +78,7 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/substrate-system/randombytes.git"
+    "url": "git+https://github.com/bicycle-codes/randombytes.git"
   },
   "keywords": [
     "crypto",
@@ -87,7 +87,7 @@
     "node"
   ],
   "bugs": {
-    "url": "https://github.com/substrate-system/randombytes/issues"
+    "url": "https://github.com/bicycle-codes/randombytes/issues"
   },
-  "homepage": "https://github.com/substrate-system/randombytes#readme"
+  "homepage": "https://github.com/bicycle-codes/randombytes"
 }
